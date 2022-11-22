@@ -15,15 +15,6 @@ export default function Home(props) {
     <Layout>
       <h1>{data.post.title}</h1>
       <TinaMarkdown content={data.post.body} />
-      <code>
-        <pre
-          style={{
-            backgroundColor: "lightgray",
-          }}
-        >
-          {JSON.stringify(data.post, null, 2)}
-        </pre>
-      </code>
     </Layout>
   );
 }

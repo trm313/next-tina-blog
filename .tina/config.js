@@ -1,4 +1,5 @@
 import { defineStaticConfig } from "tinacms";
+import collections from "./schema/collections";
 
 const schema = {
   config: {
@@ -15,53 +16,7 @@ const schema = {
       },
     },
   },
-  collections: [
-    {
-      label: "Page Content",
-      name: "page",
-      path: "content/page",
-      format: "mdx",
-      fields: [
-        {
-          name: "body",
-          label: "Main Content",
-          type: "rich-text",
-          isBody: true,
-        },
-      ],
-      ui: {
-        router: ({ document }) => {
-          if (document._sys.filename === "home") {
-            return `/`;
-          }
-          return undefined;
-        },
-      },
-    },
-    {
-      label: "Blog Posts",
-      name: "post",
-      path: "content/post",
-      fields: [
-        {
-          type: "string",
-          label: "Title",
-          name: "title",
-        },
-        {
-          type: "rich-text",
-          label: "Blog Post Body",
-          name: "body",
-          isBody: true,
-        },
-      ],
-      ui: {
-        router: ({ document }) => {
-          return `/posts/${document._sys.filename}`;
-        },
-      },
-    },
-  ],
+  collections,
 };
 
 export const config = defineStaticConfig({
