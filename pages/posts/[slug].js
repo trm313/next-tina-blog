@@ -10,7 +10,7 @@ export default function Home(props) {
     variables: props.variables,
     data: props.data,
   });
-  console.log(data.post.title);
+  console.log(data.post);
   return (
     <Layout>
       <h1>{data.post.title}</h1>
