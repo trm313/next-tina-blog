@@ -1475,12 +1475,6 @@
   dependencies:
     isomorphic-fetch "^3.0.0"
 
-"@tinacms/schema-tools@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@tinacms/schema-tools/-/schema-tools-1.0.0.tgz"
-  dependencies:
-    zod "^3.14.3"
-
 "@tinacms/schema-tools@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.0.1.tgz#d0fb871621634476d36a767fe4aba90792cacf5f"
@@ -1491,9 +1485,9 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@tinacms/sharedctx/-/sharedctx-1.0.0.tgz"
 
-"@tinacms/toolkit@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@tinacms/toolkit/-/toolkit-1.0.0.tgz"
+"@tinacms/toolkit@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-1.0.1.tgz#bfd215eb3f8f4d0650434fb1e2df0d2fd58f88c2"
   dependencies:
     "@floating-ui/dom" "^0.1.7"
     "@floating-ui/react-dom" "^0.3.3"
@@ -7077,17 +7071,17 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
 
-tinacms@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/tinacms/-/tinacms-1.0.0.tgz"
+tinacms@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.0.1.tgz#479d2373d993652aa517574f00d2015da6599f9d"
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@headlessui/react" "^1.5.0"
     "@heroicons/react" "^1.0.4"
     "@react-hook/window-size" "^3.0.7"
-    "@tinacms/schema-tools" "1.0.0"
+    "@tinacms/schema-tools" "1.0.1"
     "@tinacms/sharedctx" "1.0.0"
-    "@tinacms/toolkit" "1.0.0"
+    "@tinacms/toolkit" "1.0.1"
     crypto-js "^4.0.0"
     encoding "0.1.13"
     fetch-ponyfill "^7.1.0"
