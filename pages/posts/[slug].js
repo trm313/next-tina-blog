@@ -1,5 +1,6 @@
 import { Layout } from "../../components/Layout";
 import { useTina } from "tinacms/dist/react";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { client } from "../../.tina/__generated__/client";
 
 export default function Home(props) {
@@ -9,9 +10,11 @@ export default function Home(props) {
     variables: props.variables,
     data: props.data,
   });
-
+  console.log(data.post.title);
   return (
     <Layout>
+      <h1>{data.post.title}</h1>
+      <TinaMarkdown content={data.post.body} />
       <code>
         <pre
           style={{
