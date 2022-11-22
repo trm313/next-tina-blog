@@ -49,13 +49,10 @@ const schema = {
           name: "title",
         },
         {
-          type: "string",
+          type: "rich-text",
           label: "Blog Post Body",
           name: "body",
           isBody: true,
-          ui: {
-            component: "textarea",
-          },
         },
       ],
       ui: {
@@ -93,4 +90,4 @@ export const config = defineStaticConfig({
   schema,
 });
 
-export default config
+export default config;
