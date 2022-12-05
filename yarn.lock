@@ -1303,9 +1303,9 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@tinacms/app@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@tinacms/app/-/app-1.0.0.tgz"
+"@tinacms/app@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.0.1.tgz#5b56701ddc3c601a6ffde608afe4dacb3f8e142a"
   dependencies:
     "@headlessui/react" "1.6.6"
     "@heroicons/react" "1.0.6"
@@ -1333,9 +1333,9 @@
     webfontloader "1.6.28"
     xstate "4.32.1"
 
-"@tinacms/cli@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.0.1.tgz#6458bf607e43ede77fccd92a904378ad5da40d87"
+"@tinacms/cli@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.0.2.tgz#e98d3d813f1e71a23803428f8d8f56b4e6ebf567"
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -1345,11 +1345,11 @@
     "@graphql-codegen/visitor-plugin-common" "^2.4.0"
     "@graphql-tools/graphql-file-loader" "^7.2.0"
     "@graphql-tools/load" "^7.3.2"
-    "@tinacms/app" "1.0.0"
+    "@tinacms/app" "1.0.1"
     "@tinacms/datalayer" "1.0.0"
-    "@tinacms/graphql" "1.0.1"
+    "@tinacms/graphql" "1.0.2"
     "@tinacms/metrics" "1.0.0"
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/schema-tools" "1.0.2"
     add "^2.0.6"
     ajv "^6.12.3"
     altair-express-middleware "4.0.6"
@@ -1405,14 +1405,14 @@
     prettier "^2.2.1"
     yup "^0.32.9"
 
-"@tinacms/graphql@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-1.0.1.tgz#438e5f914d12e8b68d1c205de17a22d064c3392d"
+"@tinacms/graphql@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-1.0.2.tgz#a254d4d950c8396b86635042b19f628b96e6b0dc"
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@tinacms/datalayer" "1.0.0"
-    "@tinacms/mdx" "1.0.1"
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/mdx" "1.0.2"
+    "@tinacms/schema-tools" "1.0.2"
     body-parser "^1.19.0"
     cors "^2.8.5"
     dataloader "^2.0.0"
@@ -1454,11 +1454,11 @@
     ws "^7.3.1"
     yup "^0.32.9"
 
-"@tinacms/mdx@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-1.0.1.tgz#80d3fb2f707b5e49ed112d7d81b8a74be1f6112a"
+"@tinacms/mdx@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-1.0.2.tgz#3601c7cf550db7617c5753237ea752ff6895e60b"
   dependencies:
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/schema-tools" "1.0.2"
     acorn "^8.7.1"
     lodash-es "^4.17.21"
     mdast-util-mdx-jsx "^2.0.1"
@@ -1478,6 +1478,12 @@
 "@tinacms/schema-tools@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.0.1.tgz#d0fb871621634476d36a767fe4aba90792cacf5f"
+  dependencies:
+    zod "^3.14.3"
+
+"@tinacms/schema-tools@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.0.2.tgz#5955a6891a530b0292747df4495a02e13ee77db7"
   dependencies:
     zod "^3.14.3"
 
